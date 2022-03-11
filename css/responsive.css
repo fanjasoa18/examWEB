@@ -1,0 +1,236 @@
+ @media screen and (max-width: 1024px) {
+.banner {
+	min-height: 450px;
+}
+body{
+	overflow-x: hidden;
+}
+#header .header-content {
+	width: 90%;
+}
+.nav-toggle {
+	display: block;
+}
+.navigation {
+	position: fixed;
+	background-color: #000;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: opacity 0.5s, visibility 0s 0.5s;
+	transition: opacity 0.5s, visibility 0s 0.5s;
+}
+.navigation .primary-nav {
+	position: relative;
+	top: 45%;
+	-moz-transform: translateY(-45%);
+	-ms-transform: translateY(-45%);
+	-webkit-transform: translateY(-45%);
+	transform: translateY(-45%);
+}
+.navigation li {
+	display: block;
+	margin-bottom: 20px;
+}
+.navigation a {
+	display: block;
+	font-size: 25px;
+	margin: 0;
+	text-align: center;
+}
+.person {
+	margin: 0 auto 50px;
+}
+.person-content {
+	text-align: center;
+}
+.person .social-icons li {
+	display: inline-block;
+	float: none;
+	margin-bottom: 5px;
+}
+.testimonials blockquote {
+	padding: 20px 5% 0;
+}
+.testimonials p {
+	font-size: 26px;
+}
+.flex-control-nav {
+	bottom: 20px;
+}
+}
+@media screen and (max-width: 992px){
+.banner-text p {
+	color: white;
+}
+.banner-text h1 {
+	font-size: 28px;
+}
+.milieu{
+	background-color: wheat;
+}
+}
+ @media screen and (max-width: 768px) {
+.banner-text {
+	padding-top: 30%;
+}
+.banner-text h1 {
+	color: goldenrod;
+}
+.banner-text h1 {
+	font-size: 24px;
+}
+.banner-text p {
+	font-size: 15px;
+}
+.flexslider {
+	padding-bottom: 80px;
+}
+.flex-control-nav {
+	width: 100%;
+}
+.footer .footer-col {
+	margin-bottom: 50px;
+}
+.intro-content li {
+	width: 90vw;
+}
+.partenaire .row img{
+	margin-left: -15%;
+}
+.milieu{
+	background-image: url(../img-prof/art.jpg);
+}
+.cours p{
+	color: rgb(228, 225, 225);
+}
+.fiche{
+	color: goldenrod;
+}
+.fiche :hover{
+	color: black;
+}
+.logoAF img{
+	width: 10vw;
+	height: 17vh;
+}
+.about {
+	background-image: url(../img-prof/art.jpg);
+	height: 40vh;
+	display: flex;
+	flex-direction: row;
+}
+.about video{
+	width: 80%;
+	height: auto;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 10%;
+}
+}
+ @media screen and (max-width: 640px) {
+.banner-text {
+	padding-top: 35%;
+	text-align: center;
+}
+.contain{
+	display: flex;
+	flex-direction: column;
+}
+.contain .row {
+	margin-left: 2%;
+}
+.contain .row .two{
+	margin-left: 15%;
+}
+.contain .row .three{
+	margin-left: 2%;
+}
+.contain2{
+	display: flex;
+	flex-direction: column;
+}
+.contain2 .row {
+	margin-left: 17%;
+}
+.contain2 .row .four{
+	margin-left: 0%;
+}
+.contain2 .row .five{
+	margin-left: 2%;
+}
+.partenaire{
+	display: flex;
+	flex-direction: column;
+}
+.partenaire .row img{
+	margin-left: 30%;
+}
+.milieu{
+	background-image: url(../img-prof/art.jpg);
+}
+.cours p{
+	color: rgb(228, 225, 225);
+}
+.fiche{
+	color: goldenrod;
+}
+.fiche :hover{
+	color: black;
+}
+.footer {
+	display: flex;
+	flex-direction: column;
+}
+.fin {
+	background-color: black;
+}
+.about {
+	background-image: url(../img-prof/art.jpg);
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+}
+
+	
+ @media screen and (max-width: 480px) {
+.banner-text {
+	padding-top: 45%;
+	text-align: center;
+}
+.banner-text h1 {
+	font-size: 21px;
+}
+.banner-text p {
+	font-size: 13px;
+}
+.banner {
+	height: 30px!important;
+}
+}
+ @media screen and (max-width: 320px) {
+.banner {
+	height: 30px!important;
+}
+.banner-text {
+	padding-top: 55%;
+	text-align: center;
+}
+.banner-text h1 {
+	font-size: 21px;
+}
+.banner-text p {
+	font-size: 13px;
+}
+.testimonials blockquote {
+	padding: 20px 5% 0;
+}
+.testimonials p {
+	font-size: 26px;
+}
+}
