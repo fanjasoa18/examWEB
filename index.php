@@ -331,9 +331,9 @@
       <input type="number" value="" class="form-control" id="validationDefault04" placeholder="Téléphone" required>
       <div class="rien">  
         <div class="rien1">
-          <p>CIN ou Acte de naissance  <span class="fat"> + </span> </p></div>
-          <p>Photo d'identité récente  <span class="fat"> + </span> </p>
-          <p>Fiche de renseignement remplie  <span class="fat"> + </span> </p>
+          <p>CIN ou Acte de naissance  <span class="fat"> &plus; </span> </p></div>
+          <p>Photo d'identité récente  <span class="fat"> &plus; </span> </p>
+          <p>Fiche de renseignement remplie  <span class="fat"> &plus; </span> </p>
 
         </div>
       <input type="number" value="" class="form-control" id="validationDefault05" placeholder="N° référence MVola" required>
@@ -349,7 +349,7 @@
         </div>
       </div>
       <div class="rien">
-        <p>Bulletins de la terminale ou relevé de note BAC <span class="fat"> + </span> </p>
+        <p>Bulletins de la terminale ou relevé de note BAC <span class="fat"> &plus; </span> </p>
       </div>
 
       <button class="btn btn-primary" type="submit">S'inscrire</button>
@@ -371,9 +371,9 @@
     <div class="col-md-5">
       <h4>Social network</h4>
       <ul class="footer-share">
-        <li><a href="https://www.facebook.com/hei.school/"><img class="plus" src="../floix template/img-prof/facebook.png"></a></li>
-        <li><a href="contact@hei.school"><img class="plus" src="../floix template/img-prof/gmail.png"></a></li>
-        <li><a href="https://www.linkedin.com/company/hei-school/"><img class="moins" src="../floix template/img-prof/Linkedin.jpg"></a></li>
+        <li><a href="https://www.facebook.com/hei.school/"><img class="plus" src="img-prof/facebook.png"></a></li>
+        <li><a href="contact@hei.school"><img class="plus" src="img-prof/gmail.png"></a></li>
+        <li><a href="https://www.linkedin.com/company/hei-school/"><img class="moins" src="img-prof/Linkedin.jpg"></a></li>
       </ul>
     </div>
     <div class="col-md-3">
